@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://emiliano.bocamuchas.org'
   spec.authors      = { 'Emiliano Eloi Silva Barbosa' => 'emilianoeloi@gmail.com' }
   spec.summary      = 'Aplicativo Base'
-  spec.source       = { :git => 'https://github.com/emilianoeloi/eloiAppBase'', :tag => '1.0.0' }
+  spec.source       = { :git => 'https://github.com/emilianoeloi/eloiAppBase'', :tag => 'v1.0.0' }
   spec.source_files = 'EloiAppBase.{h,m}'
   spec.framework    = 'SystemConfiguration'
 end
