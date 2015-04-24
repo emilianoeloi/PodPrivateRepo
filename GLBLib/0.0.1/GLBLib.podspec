@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.requires_arc     = true
   s.source           = { :git => 'https://gitlab.globoi.com/timehome/globo-ios-lib.git', :tag => s.version }
-  s.source_files     = "GloboMobile/**/*"
+  s.source_files     = "**/*"
   s.frameworks       = ['Foundation', 'FacebookSDK']
 
   s.header_mappings_dir = 'GloboMobile'
