@@ -6,6 +6,6 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Ziminji' => 'oss@ziminji.com' }
   spec.summary      = 'Objectve-C query Builder'
   spec.source       = { :git => 'https://github.com/emilianoeloi/objective-c-sql-query-builder.git', :tag => '0.8.1' }
-  spec.source_files = ['cfg/**/*', 'src/*.{h,m}']
+  spec.source_files = ['cfg/**/*', 'src/**/*.{h,m}']
   spec.framework    = 'SystemConfiguration'
 end
